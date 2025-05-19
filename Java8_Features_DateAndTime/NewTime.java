@@ -1,6 +1,6 @@
 package Java8_Features_DateAndTime;
 
-// this is a LocalTime
+// this is a LocalTime  for time ke liye
 
 import java.time.LocalDate;
 import java.time.LocalTime;
@@ -22,5 +22,6 @@ public class NewTime {
         // for getting only hours
         LocalTime on = LocalTime.now();
         System.out.println(on.getHour());
+        System.out.println(on.minusHours(40));
     }
 }
